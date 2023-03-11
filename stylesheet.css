@@ -1,0 +1,79 @@
+body {
+	background-color: skyblue;
+	margin: 0;
+	margin-top: 40px;
+	font-family: 'Georgia', serif;
+	font-weight: 200;
+}
+header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	line-height: 50px;
+}
+nav {
+	float: left;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 6px;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.home {
+	height: 100vh;
+	border: 10px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+article {
+	padding: 10px;
+	margin: 10px;
+	width: 1300px;
+	float: left;
+}
+h1 {
+	padding: 50px;
+	text-align:center;
+}
+ul {
+	list-style-type: none;
+}
+#main .homepage-img {
+	width: 200px;
+}
+#about .homepage-img2 {
+	width: 200px;
+}
+.LouisianaImage {
+	width: 800px;
+	height: 500px;
+}
+.PetImage {
+	width: 700px;
+	height: 500px;
+}
+.HobbiesImage {
+	width: 700px;
+	height: 550px;
+}
+footer {
+	text-align: center;
+	padding: 10px;
+}
+
